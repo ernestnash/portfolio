@@ -1,0 +1,81 @@
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Caveat',sans-serif;
+    /* font-family: 'Estonia',sans-serif; *//*
+}
+
+p{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+img{
+    width: 100%;
+}
+
+section{
+    width: 100%;
+    padding: 8rem 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 110rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+*/
+@media (max-width: 1200px){
+    html{
+        font-size: 55%
+    }
+    section{
+        padding: 3rem 2rem;
+    }
+}
+
+@media (max-width: 800px){
+    .heading{
+         font-size: 12vw;
+    }
+    
+    .navbar a i{
+        padding: 0;
+    }
+    .navbar a span{
+        display: none;
+    }
+    .navbar a:hover{
+        padding-bottom: 2rem;
+    }
+    .home{
+        text-align: center;
+        gap: 2rem;
+    }
+    .home .image img{
+        height: 30rem;
+        width: 30rem;
+    }
+    .home .contet h3{
+        font-size: 3rem;
+    }
+    .home .content span{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 450px){
+    html{
+        font-size: 50%
+    }
+}
