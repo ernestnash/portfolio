@@ -76,10 +76,20 @@ section{
         width: 100%;
         margin-bottom: 1rem;
     }
+    .new-container-xx1 {
+        display: grid !important;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 1rem;
+    }
 }
 
 @media (max-width: 450px){
     html{
         font-size: 50%
+    }
+    .new-container-xx1 {
+        display: grid !important;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 1rem;
     }
 }
